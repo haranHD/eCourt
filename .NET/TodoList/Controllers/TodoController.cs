@@ -17,9 +17,9 @@ public class TodoController : ControllerBase
     [HttpGet]
     public IActionResult Greeting()
     {
-        Console.Write("Enter your UserName : ");
-        var user = Console.ReadLine();
-        var message = _service.Greeting(user);
+        // Console.Write("Enter your UserName : ");
+        // var user = Console.ReadLine();
+        var message = _service.Greeting();
         return Ok(message);
     }
 
