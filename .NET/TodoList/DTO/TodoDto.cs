@@ -5,5 +5,5 @@ public class TodoDto
 {
     [Required]
     [StringLength(100)]
-    public string task { get; set; }
+    public string? Task { get; set; }
 }
