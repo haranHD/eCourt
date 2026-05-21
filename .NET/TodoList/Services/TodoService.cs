@@ -2,8 +2,8 @@ namespace TodoList.Services;
 
 public class TodoService
 {
-    public string Greeting(string user)
+    public string Greeting()
     {
-        return $"Hello {user}";
+        return $"Hello HARAN!";
     }
 }
